@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Playfair+Display&family=Quintessential&display=swap');
+@font-face {
+    font-family: android ;
+    src: url(fontes/idroid.otf);
+}
+body{
+    margin: 0px;
+    background-color: #4EE68B;
+}
+header{
+    text-align: center;
+    background-image:linear-gradient(to top, #046129, #09E05F); 
+    display: block;
+}
+header>h1{
+    color: white;
+    font-family:Playfair Display ;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top:10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+header>p{
+    color: rgba(255, 255, 255, 0.781);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 300px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.212);
+}
+nav{
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.308);
+    margin-bottom: 0px;
+}
+nav>a{
+    color: #87eeb0be;
+    padding:5px 10px 5px 10px ;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+nav>a:hover{
+    background-color: rgba(255, 255, 255, 0.171);
+}
+main{
+    background-color: white;
+    width: 75vw;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 10px 10px #04612975;
+    max-width: 861px;
+}
+main>section#historia>h1{
+    margin-top: 0px;
+    font-family: android;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    color: #046129;
+    font-size: 2em;
+}
+main>section>h2{
+    background-image: linear-gradient(to right, #4ee68b93, transparent) ;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-family: android;
+    color: #046129;
+}
+main>section>p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px; 
+    line-height: 1.5em;
+}
+main>section>div{
+    text-align: center;
+}
+main>section#video{
+    background-color: #046129;
+    text-align: center;
+    padding: 10px;
+   
+}
+main>section#extra>ul
+{
+    list-style: none;
+    columns: 2;
+}
+main>section#extra{
+    margin: auto;
+    background-color: #8eeeb4a1;
+    width: 70vw;
+    border-radius: 10px;
+    max-width: 803.6px;
+}
+main>section#extra>h1{
+    background-color:#117e3d;
+     color: white;
+     border-radius: 10px 10px 0px 0px;
+     padding: 10px;
+     font-size: 20px;
+}
+main>section#extra>p{
+    padding: 10px;
+    padding-top: 0px;
+}
+main>section>p>a{
+    text-decoration: none;
+    color: #0c381e;
+    font-weight: bold;
+    background-color: #08f5679d;
+}
+main>section>p>a::after{
+    content:'\1F4CE' ;
+}
+main>section>p>a:hover{
+    color: #046129;
+}
+
+footer{
+    margin-top: 20px ;
+    background-color: #046129;
+}
+footer>p>a{
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+}
+footer{
+    text-align: center
+}
+footer>p{
+    color:#4EE68B;
+    margin: 0px;
+}
+section#conclusao{
+    padding:0px 10px 20px 10px
+}
+picture{
+    display: block;
+    text-align: center; 
+}
+iframe{
+    display: block;
+    width: 70vw;
+    margin: auto;
+    max-width: 750px ;
+}
